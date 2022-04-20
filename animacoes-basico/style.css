@@ -1,0 +1,251 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper-box {
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 50px;
+
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+/*Primeira Animação*/
+
+.box {
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+
+  animation-name: changeColor;
+  animation-duration: 3s;
+
+  margin-top: 10px;
+}
+
+@keyframes changeColor {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: blue;
+  }
+}
+
+/* Segunda Animação*/
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  margin-top: 10px;
+
+  animation-name: changeColor2;
+  animation-duration: 8s;
+}
+
+@keyframes changeColor2 {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: green;
+  }
+  50% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: blue;
+  }
+}
+
+/* Terceira Animação*/
+
+.box3 {
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  margin-top: 10px;
+
+  animation-name: changeColorWidth;
+  animation-duration: 6s;
+}
+
+@keyframes changeColorWidth {
+  0% {
+    background-color: red;
+    width: 200px;
+  }
+  25% {
+    background-color: green;
+  }
+  50% {
+    background-color: yellow;
+    width: 400px;
+  }
+  100% {
+    background-color: blue;
+    width: 200px;
+  }
+}
+
+/* Quarta animação */
+
+.box4 {
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  margin-top: 10px;
+
+  animation-name: changeColorWidth;
+  animation-duration: 6s;
+  animation-delay: 2s;
+}
+
+@keyframes changeColorWidth {
+  0% {
+    background-color: red;
+    width: 200px;
+  }
+  25% {
+    background-color: green;
+  }
+  50% {
+    background-color: yellow;
+    width: 400px;
+  }
+  100% {
+    background-color: blue;
+    width: 200px;
+  }
+}
+
+/* Quinta animação */
+
+.box5 {
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  margin-top: 10px;
+
+  animation-name: changeColorWidth;
+  animation-duration: 6s;
+  animation-delay: -3s;
+}
+
+@keyframes changeColorWidth {
+  0% {
+    background-color: red;
+    width: 200px;
+  }
+  25% {
+    background-color: green;
+  }
+  50% {
+    background-color: yellow;
+    width: 400px;
+  }
+  100% {
+    background-color: blue;
+    width: 200px;
+  }
+}
+
+/* Sexta animação */
+
+.box6 {
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  margin-top: 10px;
+
+  animation-name: changeColorWidth;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes changeColorWidth {
+  0% {
+    background-color: red;
+    width: 200px;
+  }
+  25% {
+    background-color: green;
+  }
+  50% {
+    background-color: yellow;
+    width: 400px;
+  }
+  100% {
+    background-color: blue;
+    width: 200px;
+  }
+}
+/* Sétima animação */
+
+.box7 {
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  margin-top: 10px;
+
+  animation-name: changeColorWidth;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes changeColorWidth {
+  0% {
+    background-color: red;
+    width: 200px;
+  }
+  25% {
+    background-color: green;
+  }
+  50% {
+    background-color: yellow;
+    width: 400px;
+  }
+  100% {
+    background-color: blue;
+    width: 200px;
+  }
+}
+
+/* Oitava animação */
+
+.box8 {
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  margin-top: 10px;
+
+  animation-name: changeColorWidth;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: both;
+}
+
+@keyframes changeColorWidth {
+  0% {
+    background-color: red;
+    width: 200px;
+  }
+  25% {
+    background-color: green;
+  }
+  50% {
+    background-color: yellow;
+    width: 400px;
+  }
+  100% {
+    background-color: blue;
+    width: 200px;
+  }
+}
